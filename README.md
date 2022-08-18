@@ -31,11 +31,17 @@ Let's get your mongoDB cluster set up. After you have created an account with mo
 ![Create MongoDB Cluster](https://github.com/dangja92/Track-My-Reps/blob/assets/mongoDB.jpg?raw=true)
 
 **How to connect:** 
+
 	i.   Create a user account  for this cluster with username and password. Click Create User. 
+	
 	ii.  View the User lower on the screen, then choose where to connect from: 
+	
 		1.   Our localhost will talk to the DB on Atlas server. We must whitelist My Local Environment. Add your IP address in the My Current IP Address field. 
+		
 		2.   View it lower in the screen. 
+		
 		3.   Finish and Close to view the Congrats message
+		
 		4.   Click **Go to Databases** to view your new Project 0 with Database Cluster 0.
 
 To connect your mongoDB cluster to your backend API, you need to grab the connect string. At your cluster homepage, click **Connect**, then do the following:
