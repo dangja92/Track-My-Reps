@@ -15,7 +15,7 @@ also modify existing exercises, or delete it altogether.
 ## Getting Started
 First, clone this repository to your local machine. From the repository, click on Code and copy the HTTPS link.
 
-![Git Clone](https://github.com/dangja92/Track-My-Reps/blob/assets/git_clone.jpg?raw=true)
+![Git Clone](https://github.com/dangja92/Track-My-Reps/blob/assets/git_clone.jpg?raw=true "Git Clone")
 
 On your git terminal, change to your desire directory where you would like to clone this app via the following command:
 ```
@@ -29,7 +29,7 @@ git clone <HTTPS link that you copied earlier>
 Let's get your mongoDB cluster set up. After you have created an account with mongoDB, you can create a free server by clicking on the 
 **Shared** tab. You can choose whichever cloud provider and region you want based on your location. Once everything is set, click **Create Cluster**
 
-![Create MongoDB Cluster](https://github.com/dangja92/Track-My-Reps/blob/assets/mongoDB.jpg?raw=true)
+![Create MongoDB Cluster](https://github.com/dangja92/Track-My-Reps/blob/assets/mongoDB.jpg?raw=true "Create MongoDB Cluster")
 
 **How to connect:** 
 
@@ -47,11 +47,11 @@ Let's get your mongoDB cluster set up. After you have created an account with mo
 
 To connect your mongoDB cluster to your backend API, you need to grab the connect string. At your cluster homepage, click **Connect**, then do the following:
 
-![Connect String](https://github.com/dangja92/Track-My-Reps/blob/assets/mongoDB_connect.jpg?raw=true)
+![Connect String](https://github.com/dangja92/Track-My-Reps/blob/assets/mongoDB_connect.jpg?raw=true "MongoDB Connect String")
 
 Once you've copied your connect string, navigate to the directory where you've cloned this respository. Double click on **exercise-tracker-backend**. Find the **.env** file and edit it by pasting your connect string to **MONGODB_CONNECT_STRING**
 
-![ENV File](https://github.com/dangja92/Track-My-Reps/blob/assets/add_connect_string.jpg?raw=true)
+![ENV File](https://github.com/dangja92/Track-My-Reps/blob/assets/add_connect_string.jpg?raw=true ".env File Path For Connect String" )
 
 Now your mongoDB cluster should be set up for this app.
 
