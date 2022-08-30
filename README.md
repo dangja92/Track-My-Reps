@@ -56,18 +56,23 @@ Once you've copied your connect string, navigate to the directory where you've c
 Now your mongoDB cluster should be set up for this app.
 
 ## Troubleshooting MongoDB Connection
-If you get `MongooseServerSelectionError` whilst connecting to your cluster, make sure your <password> is correct and doesn't include the `<>`. If that doesn't fix the isssue, log in into your MongoDB account and navigate to `Network Management` section on the left-hand side. Click `Add new IP address` and whitelist your current IP address to ensure the connection is established.
+If you get `MongooseServerSelectionError` whilst connecting to your cluster, make sure your `<password>` in the connect string is correct and doesn't include the `<>`. If that doesn't fix the isssue, log into your MongoDB account and navigate to `Network Management` section on the left-hand side. Click `Add new IP address` and whitelist your current IP address to ensure the connection is established.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 ## Running the App
 From the terminal, `cd` to `exercise-tracker-backend` and `exercise-tracker-frontend` separately. Then, on each terminal for the backend and frontend, run the following command:
+
 `npm install`
+
 This will install all the dependencies specified in the `package.json` file.
 
 Once all the dependencies have been installed, run the following command on both the frontend and backend:
+
 `npm start`
+
 This will take you to `localhost:8000` where you will see the app's homepage:
+
 ![Home Page](https://github.com/dangja92/Track-My-Reps/blob/assets/app_frontpage.jpg?raw=true "My Exercise Tracker Home Page")
 
 Simply click on `Add Exercise` to include any new exercise you've completed, or click on the Pen Icon to edit your current exercises, or the Trashbin Icon to delete old exercise.
