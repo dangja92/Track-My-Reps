@@ -12,6 +12,7 @@ also modify existing exercises, or delete it altogether.
 
 **NOTE**: You need to install Node.js and npm package to run this program. To get started, check out https://nodejs.org/en/ and download the most current version of Node.js (this program uses version 16.17.0) for your operating system. I will also assume that you already have git installed. If not, check out https://git-scm.com/book/en/v2/Getting-Started-Installing-Git. You will also need to register an account and create a free cluster on mongoDB in order to host your own database. Check out https://www.mongodb.com/cloud/atlas/register
 
+## Getting Started
 First, clone this repository to your local machine. From the repository, click on Code and copy the HTTPS link.
 
 ![Git Clone](https://github.com/dangja92/Track-My-Reps/blob/assets/git_clone.jpg?raw=true)
@@ -32,7 +33,7 @@ Let's get your mongoDB cluster set up. After you have created an account with mo
 
 **How to connect:** 
 
-	i.   Create a user account  for this cluster with username and password. Click Create User. 
+	i.   Create a user account for this cluster with username and password. Click Create User. 
 	
 	ii.  View the User lower on the screen, then choose where to connect from: 
 	
@@ -48,7 +49,7 @@ To connect your mongoDB cluster to your backend API, you need to grab the connec
 
 ![Connect String](https://github.com/dangja92/Track-My-Reps/blob/assets/mongoDB_connect.jpg?raw=true)
 
-Once you've copied your connect string, navigate to the directory where you've cloned this respository. Doubble click on **exercise-tracker-backend**. Find the **.env** file and edit it by pasting your connect string to **MONGODB_CONNECT_STRING**
+Once you've copied your connect string, navigate to the directory where you've cloned this respository. Double click on **exercise-tracker-backend**. Find the **.env** file and edit it by pasting your connect string to **MONGODB_CONNECT_STRING**
 
 ![ENV File](https://github.com/dangja92/Track-My-Reps/blob/assets/add_connect_string.jpg?raw=true)
 
